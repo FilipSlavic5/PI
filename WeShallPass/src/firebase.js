@@ -9,13 +9,15 @@ import { ref, onUnmounted, computed } from 'vue';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCpSgfDYIZ72ZK1zYLU7wCFmi_y0gAnhfI",
-  authDomain: "filipchat-23339.firebaseapp.com",
-  projectId: "filipchat-23339",
-  storageBucket: "filipchat-23339.appspot.com",
-  messagingSenderId: "166165549908",
-  appId: "1:166165549908:web:a0ff155b50688150e02ec1"
+  apiKey: "AIzaSyBkEeVHJuMwhMzAfrUj9CAxZZe_aBMamgU",
+  authDomain: "chat-app-d3f4f.firebaseapp.com",
+  databaseURL: "https://chat-app-d3f4f-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "chat-app-d3f4f",
+  storageBucket: "chat-app-d3f4f.appspot.com",
+  messagingSenderId: "1067946294827",
+  appId: "1:1067946294827:web:fa1151719485c6ae40f46e"
 };
+
 
 firebase.initializeApp(firebaseConfig);
 
